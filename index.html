@@ -6,7 +6,8 @@
 <style>
 
 body{
-font-family: Arial;
+font-family: Arial, sans-serif;
+margin:0;
 background:#f4f6f9;
 text-align:center;
 }
@@ -14,19 +15,46 @@ text-align:center;
 header{
 background:#2c3e50;
 color:white;
-padding:20px;
+padding:25px;
+font-size:20px;
 }
 
 .container{
-margin:40px;
+width:80%;
+margin:auto;
+margin-top:40px;
 }
 
 .card{
 background:white;
-padding:20px;
-margin:20px auto;
-width:60%;
-box-shadow:0 0 10px rgba(0,0,0,0.2);
+padding:25px;
+margin-bottom:30px;
+box-shadow:0px 2px 10px rgba(0,0,0,0.2);
+border-radius:8px;
+}
+
+h2{
+margin-bottom:15px;
+}
+
+ul{
+list-style-type: disc;
+text-align:left;
+display:inline-block;
+}
+
+button{
+background:#3498db;
+border:none;
+padding:12px 20px;
+color:white;
+font-size:16px;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#2980b9;
 }
 
 </style>
@@ -45,14 +73,15 @@ box-shadow:0 0 10px rgba(0,0,0,0.2);
 <div class="card">
 <h2>Project Description</h2>
 <p>
-This project detects structural risks using IoT sensors and machine learning.
-The system collects sensor data, processes it using Python algorithms,
-and predicts risk levels using a trained ML model.
+This project detects structural risks using IoT sensors and machine learning. 
+The system collects sensor data, processes it using Python algorithms, 
+and predicts risk levels using a trained machine learning model.
 </p>
 </div>
 
 <div class="card">
 <h2>Technologies Used</h2>
+
 <ul>
 <li>Python</li>
 <li>Arduino</li>
@@ -60,12 +89,18 @@ and predicts risk levels using a trained ML model.
 <li>SQLite Database</li>
 <li>GitHub</li>
 </ul>
+
 </div>
 
 <div class="card">
 <h2>Project Files</h2>
+
 <p>View the complete project code in this repository.</p>
-<a href="https://github.com">Open Source Code</a>
+
+<a href="https://github.com/dharani2006lakshmi-sys/stride-risk-detection-system" target="_blank">
+<button>Open Source Code</button>
+</a>
+
 </div>
 
 </div>
